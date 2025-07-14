@@ -73,3 +73,8 @@ public class Main extends Application {
         s.setShowTickMarks(true);
         return s;
     }
+    
+     public static void main(String[] args) {
+        launch(args);
+    }
+}
