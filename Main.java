@@ -63,3 +63,13 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
+
+    /** Utility to create a horizontal Slider */
+    private Slider createSlider(double min, double max, double init) {
+        Slider s = new Slider(min, max, init);
+        s.setOrientation(Orientation.HORIZONTAL);
+        s.setShowTickLabels(true);
+        s.setShowTickMarks(true);
+        return s;
+    }
